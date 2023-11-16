@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="1">
+     <widget class="QTextEdit" name="InputEdit"/>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>符号表</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QTextEdit" name="CxCode"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="3" column="0" colspan="2">
+        <widget class="QPushButton" name="SaveButton">
+         <property name="text">
+          <string>保存</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QPushButton" name="BuildButton">
+         <property name="text">
+          <string>运行</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="5" colspan="2">
+     <widget class="QTextEdit" name="OutputEdit"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="CxCodeText">
+      <property name="text">
+       <string>代码框</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>输入</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5" colspan="2">
+     <widget class="QTextEdit" name="TableEdit"/>
+    </item>
+    <item row="3" column="2" colspan="3">
+     <widget class="QTextEdit" name="ResultEdit"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>PCode</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="3">
+     <widget class="QTextEdit" name="PcodeEdit"/>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>debug</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>输出</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>955</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCXcode_compiler">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="open_action"/>
+    <addaction name="save_action"/>
+   </widget>
+   <addaction name="menuCXcode_compiler"/>
+  </widget>
+  <action name="action_F">
+   <property name="text">
+    <string>(F)</string>
+   </property>
+  </action>
+  <action name="open_action">
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="save_action">
+   <property name="text">
+    <string>另存为(&amp;S)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
