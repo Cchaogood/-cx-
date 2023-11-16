@@ -1,0 +1,12 @@
+
+{
+    int n;
+    int i;
+    int a;
+     a= 1;
+    
+    read n;
+    for (i = 2; i <= n; i++)
+        a = a * i;
+    write a;
+}

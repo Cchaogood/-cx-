@@ -1,0 +1,14 @@
+{
+int a;
+int b;
+
+read a;
+read b;
+
+a++;
+b--;
+
+write a;
+write b;
+
+}

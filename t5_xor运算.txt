@@ -1,0 +1,19 @@
+{
+
+bool a ;
+bool b;
+
+bool x;
+bool y;
+
+a=true;
+b=false;
+
+
+x = a xor a;
+y = a xor b;
+
+write x;
+write y;
+
+}

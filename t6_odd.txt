@@ -1,0 +1,18 @@
+{
+    int b;    
+    int a;
+   
+    read a;
+    if(odd(a))
+{
+    b=1;
+   write b;
+}
+
+   else
+{
+   b=2;
+  write b;
+}
+
+}

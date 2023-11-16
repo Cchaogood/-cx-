@@ -1,0 +1,34 @@
+{
+    int a;
+    int b;
+    int i;
+    int res;
+    int flag;
+
+    flag = 0;
+    read a;
+    read b;
+    
+    if (a > b)
+{
+        i = b;
+}
+    else
+{ 
+       i = a; 
+}   
+    while (flag == 0)
+    {
+        if (i % a == 0)
+        {
+            if (i % b == 0)
+            {	
+                res = i;
+                flag = 1;
+            }
+        }
+        i++;
+    }
+
+    write res;
+}
